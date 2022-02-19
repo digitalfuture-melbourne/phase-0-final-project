@@ -12,12 +12,21 @@ body { /*initialise body*/
     grid-template-rows: auto 1fr auto;
 }
 
-h1#main_body_h1 { /*Top banner of the page*/
-    color: rgb(255, 255, 255);
-    text-align: center;
+header {
+    height: 100px;
+    background-color:rgb(5, 129, 138);
+
+}
+
+footer {
+    min-height: 50px;
     background-color: rgb(5, 129, 138);
-    height: 90px;
-    padding-top: 40px;
+}
+
+h1#main_body_h1 { /*Top banner of the page*/
+    color: white;
+    text-align: center;
+    padding-top: 10px;
 }
 
 h2#main_body_h2 { /*About my Project */
@@ -28,10 +37,11 @@ h3 { /*initial Idea*/
     text-align: center;
 }
 
+h3#footer {
+    color: white;
+}
+
 ul#main_body_ul { /*system to implement*/
     padding-left: 33%;
 }
 
-footer {
-    min-height: 50px;
-}
