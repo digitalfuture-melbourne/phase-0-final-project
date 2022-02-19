@@ -56,3 +56,7 @@ p#footer {
     padding-top: 30px;
     font-size:smaller;
 }
+
+button#visit_me {
+    width: fit-content;
+}
