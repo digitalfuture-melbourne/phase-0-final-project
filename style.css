@@ -1,7 +1,26 @@
+/* This is the initial initialisation of the CSS Script used in my project */
 p {
-    color: blue;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-h1 {
-    color: blue;
+h1#main_body_h1 { /*Top banner of the page*/
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(5, 129, 138);
+    height: 90px;
+    padding-top: 40px;
+}
+
+h2#main_body_h2 { /*About my Project */
+    text-align: center;
+}
+
+h3 { /*initial Idea and contact details*/
+    text-align: center;
+}
+
+ul#main_body_ul { /*system to implement*/
+    padding-left: 33%;
 }
