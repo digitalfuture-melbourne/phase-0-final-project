@@ -5,6 +5,13 @@ p {
     padding-right: 100px;
 }
 
+body { /*initialise body*/
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 h1#main_body_h1 { /*Top banner of the page*/
     color: rgb(255, 255, 255);
     text-align: center;
@@ -17,10 +24,14 @@ h2#main_body_h2 { /*About my Project */
     text-align: center;
 }
 
-h3 { /*initial Idea and contact details*/
+h3 { /*initial Idea*/
     text-align: center;
 }
 
 ul#main_body_ul { /*system to implement*/
     padding-left: 33%;
+}
+
+footer {
+    min-height: 50px;
 }
